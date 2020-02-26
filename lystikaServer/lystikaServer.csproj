@@ -1,0 +1,524 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{6F68B6C8-4261-4AEF-A234-1D00BBAF618A}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>lystikaServer</RootNamespace>
+    <AssemblyName>lystikaServer</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="N11ProductIntegration">
+      <HintPath>..\..\..\Downloads\N11ProductIntegration.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="ApiV2Client">
+      <HintPath>..\..\..\Desktop\csharpclient-2.5.1\gg-csharp-client\ApiV2Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Connected Services\n11CategoryService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\n11CityService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\n11OrderService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\n11ProductSellingService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\n11ProductService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\n11ProductStockService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\n11ShipmentCompanyService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\n11ShipmentService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shell.cs" />
+    <Compile Include="yardım.cs" />
+    <Compile Include="gittigidiyorData.cs" />
+    <Compile Include="urunTool.cs" />
+    <Compile Include="nelevenData.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Connected Services\n11CategoryService\CategoryService.wsdl" />
+    <None Include="Connected Services\n11CategoryService\lystikaServer.n11CategoryService.GetCategoryAttributesIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11CategoryService\lystikaServer.n11CategoryService.GetCategoryAttributesIdResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11CategoryService\lystikaServer.n11CategoryService.GetCategoryAttributesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11CategoryService\lystikaServer.n11CategoryService.GetCategoryAttributesResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11CategoryService\lystikaServer.n11CategoryService.GetCategoryAttributeValueResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11CategoryService\lystikaServer.n11CategoryService.GetCategoryAttributeValueResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11CategoryService\lystikaServer.n11CategoryService.GetParentCategoryResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11CategoryService\lystikaServer.n11CategoryService.GetParentCategoryResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11CategoryService\lystikaServer.n11CategoryService.GetSubCategoriesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11CategoryService\lystikaServer.n11CategoryService.GetSubCategoriesResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11CategoryService\lystikaServer.n11CategoryService.GetTopLevelCategoriesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11CategoryService\lystikaServer.n11CategoryService.GetTopLevelCategoriesResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11CityService\CityService.wsdl" />
+    <None Include="Connected Services\n11CityService\lystikaServer.n11CityService.GetCitiesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11CityService\lystikaServer.n11CityService.GetCitiesResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11CityService\lystikaServer.n11CityService.GetCityResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11CityService\lystikaServer.n11CityService.GetCityResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11CityService\lystikaServer.n11CityService.GetDistrictResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11CityService\lystikaServer.n11CityService.GetDistrictResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11CityService\lystikaServer.n11CityService.GetNeighborhoodsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11CityService\lystikaServer.n11CityService.GetNeighborhoodsResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11OrderService\lystikaServer.n11OrderService.ComplementaryItemDetailResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11OrderService\lystikaServer.n11OrderService.ComplementaryItemDetailResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11OrderService\lystikaServer.n11OrderService.DetailedOrderListResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11OrderService\lystikaServer.n11OrderService.DetailedOrderListResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11OrderService\lystikaServer.n11OrderService.MakeOrderItemShipmentResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11OrderService\lystikaServer.n11OrderService.MakeOrderItemShipmentResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11OrderService\lystikaServer.n11OrderService.OrderDetailResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11OrderService\lystikaServer.n11OrderService.OrderDetailResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11OrderService\lystikaServer.n11OrderService.OrderItemAcceptResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11OrderService\lystikaServer.n11OrderService.OrderItemAcceptResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11OrderService\lystikaServer.n11OrderService.OrderItemRejectResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11OrderService\lystikaServer.n11OrderService.OrderItemRejectResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11OrderService\lystikaServer.n11OrderService.OrderListResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11OrderService\lystikaServer.n11OrderService.OrderListResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11OrderService\OrderService.wsdl" />
+    <None Include="Connected Services\n11ProductSellingService\lystikaServer.n11ProductSellingService.StartSellingProductByProductIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductSellingService\lystikaServer.n11ProductSellingService.StartSellingProductByProductIdResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductSellingService\lystikaServer.n11ProductSellingService.StartSellingProductBySellerCodeResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductSellingService\lystikaServer.n11ProductSellingService.StartSellingProductBySellerCodeResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductSellingService\lystikaServer.n11ProductSellingService.StopSellingProductByProductIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductSellingService\lystikaServer.n11ProductSellingService.StopSellingProductByProductIdResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductSellingService\lystikaServer.n11ProductSellingService.StopSellingProductBySellerCodeResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductSellingService\lystikaServer.n11ProductSellingService.StopSellingProductBySellerCodeResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductSellingService\ProductSellingService.wsdl" />
+    <None Include="Connected Services\n11ProductService\lystikaServer.n11ProductService.AdaptUnificationProductsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductService\lystikaServer.n11ProductService.AdaptUnificationProductsResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductService\lystikaServer.n11ProductService.DeleteProductByIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductService\lystikaServer.n11ProductService.DeleteProductByIdResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductService\lystikaServer.n11ProductService.DeleteProductBySellerCodeResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductService\lystikaServer.n11ProductService.DeleteProductBySellerCodeResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductService\lystikaServer.n11ProductService.GetProductByProductIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductService\lystikaServer.n11ProductService.GetProductByProductIdResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductService\lystikaServer.n11ProductService.GetProductBySellerCodeResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductService\lystikaServer.n11ProductService.GetProductBySellerCodeResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductService\lystikaServer.n11ProductService.GetProductListResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductService\lystikaServer.n11ProductService.GetProductListResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductService\lystikaServer.n11ProductService.GetProductQuestionDetailResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductService\lystikaServer.n11ProductService.GetProductQuestionDetailResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductService\lystikaServer.n11ProductService.GetProductQuestionListResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductService\lystikaServer.n11ProductService.GetProductQuestionListResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductService\lystikaServer.n11ProductService.ProductApprovalStatusResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductService\lystikaServer.n11ProductService.ProductApprovalStatusResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductService\lystikaServer.n11ProductService.SaveProductAnswerResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductService\lystikaServer.n11ProductService.SaveProductAnswerResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductService\lystikaServer.n11ProductService.SaveProductResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductService\lystikaServer.n11ProductService.SaveProductResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductService\lystikaServer.n11ProductService.SearchProductsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductService\lystikaServer.n11ProductService.SearchProductsResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductService\lystikaServer.n11ProductService.UpdateDiscountValueByProductIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductService\lystikaServer.n11ProductService.UpdateDiscountValueByProductIdResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductService\lystikaServer.n11ProductService.UpdateDiscountValueBySellerCodeResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductService\lystikaServer.n11ProductService.UpdateDiscountValueBySellerCodeResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductService\lystikaServer.n11ProductService.UpdateProductBasicResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductService\lystikaServer.n11ProductService.UpdateProductBasicResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductService\lystikaServer.n11ProductService.UpdateProductPriceByIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductService\lystikaServer.n11ProductService.UpdateProductPriceByIdResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductService\lystikaServer.n11ProductService.UpdateProductPriceBySellerCodeResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductService\lystikaServer.n11ProductService.UpdateProductPriceBySellerCodeResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductService\lystikaServer.n11ProductService.UpdateProductsByPimsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductService\lystikaServer.n11ProductService.UpdateProductsByPimsResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductService\ProductService.wsdl" />
+    <None Include="Connected Services\n11ProductStockService\lystikaServer.n11ProductStockService.DeleteAndUpdateStockByStockAttributesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductStockService\lystikaServer.n11ProductStockService.DeleteAndUpdateStockByStockAttributesResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductStockService\lystikaServer.n11ProductStockService.GetProductStockByProductIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductStockService\lystikaServer.n11ProductStockService.GetProductStockByProductIdResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductStockService\lystikaServer.n11ProductStockService.GetProductStockByProductSellerCodeResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductStockService\lystikaServer.n11ProductStockService.GetProductStockByProductSellerCodeResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductStockService\lystikaServer.n11ProductStockService.IncreaseStockByStockAttributesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductStockService\lystikaServer.n11ProductStockService.IncreaseStockByStockAttributesResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductStockService\lystikaServer.n11ProductStockService.IncreaseStockByStockIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductStockService\lystikaServer.n11ProductStockService.IncreaseStockByStockIdResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductStockService\lystikaServer.n11ProductStockService.IncreaseStockByStockSellerCodeResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductStockService\lystikaServer.n11ProductStockService.IncreaseStockByStockSellerCodeResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductStockService\lystikaServer.n11ProductStockService.UpdateStockByStockIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductStockService\lystikaServer.n11ProductStockService.UpdateStockByStockIdResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductStockService\lystikaServer.n11ProductStockService.UpdateStockByStockSellerCodeResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductStockService\lystikaServer.n11ProductStockService.UpdateStockByStockSellerCodeResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ProductStockService\ProductStockService.wsdl" />
+    <None Include="Connected Services\n11ShipmentCompanyService\lystikaServer.n11ShipmentCompanyService.GetShipmentCompaniesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ShipmentCompanyService\lystikaServer.n11ShipmentCompanyService.GetShipmentCompaniesResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ShipmentCompanyService\ShipmentCompanyService.wsdl" />
+    <None Include="Connected Services\n11ShipmentService\lystikaServer.n11ShipmentService.CreateOrUpdateShipmentTemplateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ShipmentService\lystikaServer.n11ShipmentService.CreateOrUpdateShipmentTemplateResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ShipmentService\lystikaServer.n11ShipmentService.GetShipmentTemplateListResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ShipmentService\lystikaServer.n11ShipmentService.GetShipmentTemplateListResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ShipmentService\lystikaServer.n11ShipmentService.GetShipmentTemplateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ShipmentService\lystikaServer.n11ShipmentService.GetShipmentTemplateResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\n11ShipmentService\ShipmentService.wsdl" />
+    <None Include="ProductStockService.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\n11CategoryService\" />
+    <WCFMetadataStorage Include="Connected Services\n11CityService\" />
+    <WCFMetadataStorage Include="Connected Services\n11OrderService\" />
+    <WCFMetadataStorage Include="Connected Services\n11ProductSellingService\" />
+    <WCFMetadataStorage Include="Connected Services\n11ProductService\" />
+    <WCFMetadataStorage Include="Connected Services\n11ProductStockService\" />
+    <WCFMetadataStorage Include="Connected Services\n11ShipmentCompanyService\" />
+    <WCFMetadataStorage Include="Connected Services\n11ShipmentService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\n11CategoryService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\n11CategoryService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\n11CategoryService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\n11CityService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\n11CityService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\n11CityService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\n11OrderService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\n11OrderService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\n11OrderService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\n11ProductSellingService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\n11ProductSellingService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\n11ProductSellingService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\n11ProductService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\n11ProductService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\n11ProductService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\n11ProductStockService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\n11ProductStockService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\n11ProductStockService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\n11ShipmentCompanyService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\n11ShipmentCompanyService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\n11ShipmentCompanyService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\n11ShipmentService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\n11ShipmentService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\n11ShipmentService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\..\..\Downloads\N11ProductIntegration.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

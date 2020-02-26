@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{6F68B6C8-4261-4AEF-A234-1D00BBAF618A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="lystikaServer/n11catclass.cs">
+    <Files>
+      <File FileName="lystikaServer/Program.cs" Line="16" Column="35" />
+      <File FileName="lystikaServer/Shell.cs" Line="39" Column="64" />
+      <File FileName="lystikaServer/yardım.cs" Line="17" Column="14" />
+      <File FileName="lystikaServer/gittigidiyorData.cs" Line="3" Column="28" />
+      <File FileName="auth-config.xml" Line="6" Column="46" />
+      <File FileName="lystikaServer/urunTool.cs" Line="8" Column="47" />
+      <File FileName="lystikaServer/nelevenData.cs" Line="41" Column="1" />
+      <File FileName="lystikaServer/n11catclass.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="lystikaServer" expanded="True">
+            <Node name="Solution Items" expanded="True" />
+            <Node name="lystikaServer" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="n11catclass.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.lystikaServer PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

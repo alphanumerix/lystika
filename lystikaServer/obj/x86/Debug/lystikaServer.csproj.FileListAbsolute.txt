@@ -1,0 +1,16 @@
+/home/cakmathinkpad/Projects/lystikaServer/lystikaServer/bin/Debug/lystikaServer.exe
+/home/cakmathinkpad/Projects/lystikaServer/lystikaServer/bin/Debug/lystikaServer.pdb
+/home/cakmathinkpad/Projects/lystikaServer/lystikaServer/obj/x86/Debug/lystikaServer.csprojAssemblyReference.cache
+/home/cakmathinkpad/Projects/lystikaServer/lystikaServer/obj/x86/Debug/lystikaServer.csproj.CoreCompileInputs.cache
+/home/cakmathinkpad/Projects/lystikaServer/lystikaServer/obj/x86/Debug/lystikaServer.exe
+/home/cakmathinkpad/Projects/lystikaServer/lystikaServer/obj/x86/Debug/lystikaServer.pdb
+/home/cakmathinkpad/Projects/lystikaServer/lystikaServer/bin/Debug/ApiV2Client.dll
+/home/cakmathinkpad/Projects/lystikaServer/lystikaServer/obj/x86/Debug/lystikaServer.csproj.CopyComplete
+C:\Users\ARGE\Desktop\lystikaServer\lystikaServer\obj\x86\Debug\lystikaServer.csprojAssemblyReference.cache
+C:\Users\ARGE\Desktop\lystikaServer\lystikaServer\obj\x86\Debug\lystikaServer.exe
+C:\Users\ARGE\Desktop\lystikaServer\lystikaServer\obj\x86\Debug\lystikaServer.pdb
+C:\Users\ARGE\Desktop\lystikaServer\lystikaServer\bin\Debug\lystikaServer.exe.config
+C:\Users\ARGE\Desktop\lystikaServer\lystikaServer\bin\Debug\lystikaServer.exe
+C:\Users\ARGE\Desktop\lystikaServer\lystikaServer\bin\Debug\lystikaServer.pdb
+C:\Users\ARGE\Desktop\lystikaServer\lystikaServer\obj\x86\Debug\lystikaServer.csproj.CopyComplete
+C:\Users\ARGE\Desktop\lystikaServer\lystikaServer\bin\Debug\N11ProductIntegration.dll
