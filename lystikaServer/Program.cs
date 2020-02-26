@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Windows.Forms;
 
 namespace lystikaServer
 {
@@ -13,7 +14,11 @@ namespace lystikaServer
 
 
             //Shell.shell();//sözdizimi okuyucusunu açar
-            nelevenData.n11Data();
+
+
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());
         }
      
 

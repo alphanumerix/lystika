@@ -21,3 +21,5 @@ C:\Users\ARGE\Documents\GitHub\lystika\lystikaServer\bin\Debug\lystikaServer.exe
 C:\Users\ARGE\Documents\GitHub\lystika\lystikaServer\bin\Debug\lystikaServer.exe
 C:\Users\ARGE\Documents\GitHub\lystika\lystikaServer\bin\Debug\lystikaServer.pdb
 C:\Users\ARGE\Documents\GitHub\lystika\lystikaServer\obj\x86\Debug\lystikaServer.csproj.CopyComplete
+C:\Users\ARGE\Documents\GitHub\lystika\lystikaServer\obj\x86\Debug\lystikaServer.Form1.resources
+C:\Users\ARGE\Documents\GitHub\lystika\lystikaServer\obj\x86\Debug\lystikaServer.csproj.GenerateResource.cache

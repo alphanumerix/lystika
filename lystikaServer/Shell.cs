@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Windows.Forms;
 namespace lystikaServer
 {
     public class Shell
@@ -29,6 +30,15 @@ namespace lystikaServer
             else if (komut == "n11tool")
             {
                 nelevenData.n11Data();
+
+
+            }
+            else if (komut == "n11clonegui")
+            {
+
+                Application.EnableVisualStyles();
+                Application.SetCompatibleTextRenderingDefault(false);
+                Application.Run(new Form1());
             }
             else if (komut == "yardim")
                 {
