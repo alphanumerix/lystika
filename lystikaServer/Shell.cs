@@ -25,7 +25,12 @@ namespace lystikaServer
                     Console.Clear();
                     shell();
                 }
-               else if (komut == "yardim")
+
+            else if (komut == "n11tool")
+            {
+                nelevenData.n11Data();
+            }
+            else if (komut == "yardim")
                 {
                 yardim.docShell();
                  }

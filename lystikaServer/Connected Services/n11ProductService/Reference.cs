@@ -8,8 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using System;
-
 namespace lystikaServer.n11ProductService {
     
     
@@ -40,8 +38,7 @@ namespace lystikaServer.n11ProductService {
         
         [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
         System.Threading.Tasks.Task<lystikaServer.n11ProductService.GetProductListResponse1> GetProductListAsync(lystikaServer.n11ProductService.GetProductListRequest1 request);
-        GetProductByProductIdResponse GetProductByProductId(GetProductByProductIdRequest request);
-
+        
         // CODEGEN: SearchProducts işlemi RPC ya da belge kaydırmalı olmadığından, ileti sözleşmesi oluşturuluyor.
         [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
@@ -3012,11 +3009,6 @@ namespace lystikaServer.n11ProductService {
                 propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
             }
         }
-
-        internal string getTitle()
-        {
-            throw new NotImplementedException();
-        }
     }
     
     /// <remarks/>
@@ -3136,11 +3128,6 @@ namespace lystikaServer.n11ProductService {
             if ((propertyChanged != null)) {
                 propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
             }
-        }
-
-        internal Product getProduct()
-        {
-            throw new NotImplementedException();
         }
     }
     

@@ -14,3 +14,10 @@ C:\Users\ARGE\Desktop\lystikaServer\lystikaServer\bin\Debug\lystikaServer.exe
 C:\Users\ARGE\Desktop\lystikaServer\lystikaServer\bin\Debug\lystikaServer.pdb
 C:\Users\ARGE\Desktop\lystikaServer\lystikaServer\obj\x86\Debug\lystikaServer.csproj.CopyComplete
 C:\Users\ARGE\Desktop\lystikaServer\lystikaServer\bin\Debug\N11ProductIntegration.dll
+C:\Users\ARGE\Documents\GitHub\lystika\lystikaServer\obj\x86\Debug\lystikaServer.csprojAssemblyReference.cache
+C:\Users\ARGE\Documents\GitHub\lystika\lystikaServer\obj\x86\Debug\lystikaServer.exe
+C:\Users\ARGE\Documents\GitHub\lystika\lystikaServer\obj\x86\Debug\lystikaServer.pdb
+C:\Users\ARGE\Documents\GitHub\lystika\lystikaServer\bin\Debug\lystikaServer.exe.config
+C:\Users\ARGE\Documents\GitHub\lystika\lystikaServer\bin\Debug\lystikaServer.exe
+C:\Users\ARGE\Documents\GitHub\lystika\lystikaServer\bin\Debug\lystikaServer.pdb
+C:\Users\ARGE\Documents\GitHub\lystika\lystikaServer\obj\x86\Debug\lystikaServer.csproj.CopyComplete
